@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dorm Room Layout Planner</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Dorm Room Layout Planner</h1>
+
+    <div class="container">
+        <div class="furniture-panel">
+            <h2>Furniture</h2>
+            <div class="furniture" data-type="bed">Bed</div>
+            <div class="furniture" data-type="desk">Desk</div>
+            <div class="furniture" data-type="dresser">Dresser</div>
+            <div class="furniture" data-type="chair">Chair</div>
+
+            <button id="rotate">Rotate</button>
+            <button id="save">Save</button>
+            <button id="load">Load</button>
+            <button id="reset">Reset</button>
+        </div>
+        <div class="grid" id="grid"></div>
+    </div>
+    <p class="note">
+        Double click any placed item to remove it without resetting the entire layout.
+    </p> 
+     
+    <script src="script.js"></script>
+</body>
+</html>
